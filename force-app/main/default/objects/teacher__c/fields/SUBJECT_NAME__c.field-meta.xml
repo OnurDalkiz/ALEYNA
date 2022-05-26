@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SUBJECT_NAME__c</fullName>
+    <externalId>false</externalId>
+    <label>SUBJECT NAME</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>TURKISH</fullName>
+                <default>false</default>
+                <label>TURKISH</label>
+            </value>
+            <value>
+                <fullName>MATH</fullName>
+                <default>false</default>
+                <label>MATH</label>
+            </value>
+            <value>
+                <fullName>BIOLOGY</fullName>
+                <default>false</default>
+                <label>BIOLOGY</label>
+            </value>
+            <value>
+                <fullName>CHEMISTRY</fullName>
+                <default>false</default>
+                <label>CHEMISTRY</label>
+            </value>
+            <value>
+                <fullName>FRENCH</fullName>
+                <default>false</default>
+                <label>FRENCH</label>
+            </value>
+            <value>
+                <fullName>COMPUTING</fullName>
+                <default>false</default>
+                <label>COMPUTING</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
